@@ -43,7 +43,6 @@
 		747695922B002E390085AA44 = {
 			isa = PBXGroup;
 			children = (
-				74775B0E2B04574A003F8B54 /* MapView.swift */,
 				7476959D2B002E390085AA44 /* AppInfo */,
 				7476959C2B002E390085AA44 /* Products */,
 			);
@@ -60,6 +59,7 @@
 		7476959D2B002E390085AA44 /* AppInfo */ = {
 			isa = PBXGroup;
 			children = (
+				74775B0E2B04574A003F8B54 /* MapView.swift */,
 				7476959E2B002E390085AA44 /* AppInfoApp.swift */,
 				747695A02B002E390085AA44 /* ContentView.swift */,
 				747695AC2B002EA70085AA44 /* MainView.swift */,
