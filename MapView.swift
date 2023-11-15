@@ -6,13 +6,31 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct MapView: View {
+    var latitude: Double
+    var longitude: Double
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Map{
+            Annotation("Office Location", coordinate: CLLocationCoordinate2D(latitude: latitude, longitude: longitude)) {
+                Image(systemName: "mappin")
+                    .padding()
+                    .background {
+                        Circle()
+                            .foregroundStyle(.yellow)
+                    }
+            }
+        }
+    }
+    
+    private var region: MKCoordinateRegion {
+        MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: latitude, longitude: longitude), latitudinalMeters: 1000, longitudinalMeters: 1000)
     }
 }
 
+
+
 #Preview {
-    MapView()
+    MapView(latitude: 0, longitude:  0)
 }

@@ -11,7 +11,9 @@ import SwiftUI
 struct AppInfoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            MainView()
+//            ImageProcessingView()
         }
     }
 }

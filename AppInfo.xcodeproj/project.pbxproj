@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7402AAA02B00B47200A4FF3A /* InfoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7402AA9F2B00B47200A4FF3A /* InfoDetail.swift */; };
 		7476959F2B002E390085AA44 /* AppInfoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7476959E2B002E390085AA44 /* AppInfoApp.swift */; };
 		747695A12B002E390085AA44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747695A02B002E390085AA44 /* ContentView.swift */; };
 		747695A32B002E390085AA44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 747695A22B002E390085AA44 /* Assets.xcassets */; };
 		747695A62B002E390085AA44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 747695A52B002E390085AA44 /* Preview Assets.xcassets */; };
+		747695AD2B002EA70085AA44 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747695AC2B002EA70085AA44 /* MainView.swift */; };
+		747695AF2B002F310085AA44 /* ImageProcessingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747695AE2B002F310085AA44 /* ImageProcessingView.swift */; };
+		74775B0F2B04574A003F8B54 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74775B0E2B04574A003F8B54 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7402AA9F2B00B47200A4FF3A /* InfoDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetail.swift; sourceTree = "<group>"; };
 		7476959B2B002E390085AA44 /* AppInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7476959E2B002E390085AA44 /* AppInfoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoApp.swift; sourceTree = "<group>"; };
 		747695A02B002E390085AA44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		747695A22B002E390085AA44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		747695A52B002E390085AA44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		747695AC2B002EA70085AA44 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		747695AE2B002F310085AA44 /* ImageProcessingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessingView.swift; sourceTree = "<group>"; };
+		74775B0E2B04574A003F8B54 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,7 @@
 		747695922B002E390085AA44 = {
 			isa = PBXGroup;
 			children = (
+				74775B0E2B04574A003F8B54 /* MapView.swift */,
 				7476959D2B002E390085AA44 /* AppInfo */,
 				7476959C2B002E390085AA44 /* Products */,
 			);
@@ -53,6 +62,9 @@
 			children = (
 				7476959E2B002E390085AA44 /* AppInfoApp.swift */,
 				747695A02B002E390085AA44 /* ContentView.swift */,
+				747695AC2B002EA70085AA44 /* MainView.swift */,
+				7402AA9F2B00B47200A4FF3A /* InfoDetail.swift */,
+				747695AE2B002F310085AA44 /* ImageProcessingView.swift */,
 				747695A22B002E390085AA44 /* Assets.xcassets */,
 				747695A42B002E390085AA44 /* Preview Content */,
 			);
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				747695A12B002E390085AA44 /* ContentView.swift in Sources */,
+				74775B0F2B04574A003F8B54 /* MapView.swift in Sources */,
+				7402AAA02B00B47200A4FF3A /* InfoDetail.swift in Sources */,
+				747695AD2B002EA70085AA44 /* MainView.swift in Sources */,
 				7476959F2B002E390085AA44 /* AppInfoApp.swift in Sources */,
+				747695AF2B002F310085AA44 /* ImageProcessingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
