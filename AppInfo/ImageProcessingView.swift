@@ -19,12 +19,12 @@ struct ImageProcessingView: View {
     @Binding var offset_x: Double
     @Binding var offset_y: Double
     @Binding var zoomScale: Double
-    @State var errorMsg: String = ""
-    @State var changeImage = false
-    @State var new_offset_x: Double = 0
-    @State var new_offset_y: Double = 0
-    @State var new_scale: Double = 1
-    @State var selectionMade: Bool = false
+    @State private var errorMsg: String = ""
+    @State private var changeImage = false
+    @State private var new_offset_x: Double = 0
+    @State private var new_offset_y: Double = 0
+    @State private var new_scale: Double = 1
+    @State private var selectionMade: Bool = false
     
     var body: some View {
         NavigationStack {

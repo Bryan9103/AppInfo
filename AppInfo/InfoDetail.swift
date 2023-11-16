@@ -155,7 +155,9 @@ struct InfoDetail: View {
             .shadow(radius: 5)
  
             .alert(isPresented: $showError){
-                Alert(title: Text("No Application Name"), message: Text("Please fill in [App. Name]!"), dismissButton: .default(Text("I Understand!"), action:{}))
+                Alert(title: Text("No Application Name"), message: Text("Please fill in [App. Name]!"), dismissButton: .default(Text("I Understand!"), action:{
+                    focusedField = true
+                }))
             }
             .confirmationDialog("Save Changes?", isPresented: $showOptions, titleVisibility: .visible) {
                             Button("Yes") {

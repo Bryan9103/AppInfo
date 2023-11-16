@@ -96,6 +96,7 @@ struct MainView: View {
                         .font(.system(size:40))
                         .fontWeight(.semibold)
                         .foregroundStyle(.primary)
+                        .lineLimit(1)
                     
                     Text(selectedCategory)
                         .font(.callout)
