@@ -13,7 +13,7 @@ struct MapView: View {
     var longitude: Double
     var body: some View {
         Map{
-            Annotation("Office Location", coordinate: CLLocationCoordinate2D(latitude: latitude, longitude: longitude)) {
+            Annotation("Location", coordinate: CLLocationCoordinate2D(latitude: latitude, longitude: longitude)) {
                 Image(systemName: "mappin")
                     .padding()
                     .background {
@@ -22,10 +22,6 @@ struct MapView: View {
                     }
             }
         }
-    }
-    
-    private var region: MKCoordinateRegion {
-        MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: latitude, longitude: longitude), latitudinalMeters: 1000, longitudinalMeters: 1000)
     }
 }
 

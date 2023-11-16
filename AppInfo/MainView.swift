@@ -194,7 +194,7 @@ struct MainView: View {
                                             showMap.toggle()
                                         }
                                         .sheet(isPresented: $showMap) {
-                                            Text("Office Location")
+                                            Text("Office")
                                             MapView(latitude: latDouble, longitude: lonDouble)
                                                 .presentationDetents([.height(300)])
                                         }
