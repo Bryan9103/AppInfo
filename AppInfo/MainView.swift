@@ -54,7 +54,8 @@ struct MainView: View {
                 .background(.blue)
                 .clipShape(.buttonBorder)
                 .padding(.leading, 100)
-                .sheet(isPresented:$presentSheet){} content: {InfoDetail(applicationName: $applicationName, selectedCategory: $selectedCategory, downloadFee: $downloadFee, establishedDate:$establishedDate, openHours: $openHours, openingHours: $openingHours, closingHours: $closingHours, selectedDays : $selectedDays, appDetail: $appDetail,  map_latitude: $latitude, map_longitude: $longitude, displayMap: $mapAvailable, displayInfo: $viewData)}
+                .sheet(isPresented:$presentSheet){ InfoDetail(applicationName: $applicationName, selectedCategory: $selectedCategory, downloadFee: $downloadFee, establishedDate:$establishedDate, openHours: $openHours, openingHours: $openingHours, closingHours: $closingHours, selectedDays : $selectedDays, appDetail: $appDetail,  map_latitude: $latitude, map_longitude: $longitude, displayMap: $mapAvailable, displayInfo: $viewData)
+                }
             }
             
             VStack(alignment: .center){

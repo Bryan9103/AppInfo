@@ -41,11 +41,6 @@ struct InfoDetail: View {
     @State private var showError = false
     
     let category = ["Social Media", "Games", "Education", "Others"]
-    let formatter: NumberFormatter = {
-        let formatter = NumberFormatter()
-        formatter.numberStyle = .decimal
-        return formatter
-    }()
     
     var body: some View {
         VStack(spacing: 7.0){
